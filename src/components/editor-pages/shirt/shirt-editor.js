@@ -14,11 +14,10 @@ import jacket from "./jacket_default.png";
 import duck from "./duck.png";
 //import gt from "./gt.png"; 
 
-import ieee_black from "./ieee_logo_black.png"; 
-import ieee_red from "./ieee_logo_red.png"; 
-import ieee_white from "./ieee_logo_white.png"; 
+import caav_black from "./caav_logo_black.png"; 
+import caav_white from "./caav_logo_white.png"; 
 
-const shirtColors = ["#f2f2f2", "#cedded", "#92a1b1", "#3479b7","#7d0c1e","#262525"]
+const shirtColors = ["#f2f2f2", "#f56600", "#009900", "#3479b7","#522d80","#262525"]
 
 var assets = {
   shirt: {
@@ -32,13 +31,13 @@ var assets = {
     materials: []
   },
   front: {
-    selected: ieee_white,
-    textures: [ieee_white,ieee_red,ieee_black, duck],
+    selected: caav_white,
+    textures: [caav_white,caav_black, duck],
     materials: []
   },
   back: {
     selected: 'none',
-    textures: [ieee_white,ieee_red,ieee_black, duck],
+    textures: [caav_white,caav_black, duck],
     materials: []
   }
 }
