@@ -14,6 +14,8 @@ import ss from "../includes/models/merged/model_straight_short.glb";
 import sb from "../includes/models/merged/model_straight_blair.glb";
 import sl from "../includes/models/merged/model_straight_long.glb";
 import cn from "../includes/models/merged/model_curvy_none.glb";
+
+
 import cs from "../includes/models/merged/model_curvy_short.glb";
 import cb from "../includes/models/merged/model_curvy_blair.glb";
 import cl from "../includes/models/merged/model_curvy_long.glb";
@@ -89,7 +91,7 @@ async function init() {
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(75, size.width / size.height, 0.1, 1000);
 
-  const renderer = new THREE.WebGLRenderer();
+  const renderer = new THREE.WebGLRenderer( {alpha: true});
 
   renderer.setSize(size.width, size.height);
   document.getElementById("container").prepend(renderer.domElement);

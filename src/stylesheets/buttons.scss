@@ -1,7 +1,7 @@
 $swatch-size : 30px;
 $texture-swatch-size: 40px;
 $swatch-corner-radius : 4px;
-$swatch-background: #e0e0e0;
+$swatch-background: #e8e8e8;
 
 .swatchContainer {
     display: flex;
@@ -14,6 +14,7 @@ $swatch-background: #e0e0e0;
     float: left;
     border-radius: $swatch-corner-radius;
     margin-left: 6px;
+    // box-shadow: 4px 4px 8px #888888;
     cursor: pointer;
 
     &.texture {

@@ -11,13 +11,14 @@ import shirt from "./shirt_default.png";
 import jacket from "./jacket_default.png";
 
 //import ae from "./ae.png";
-import duck from "./duck.png";
+// import duck from "./duck.png";
+import pattern from "./pattern.png";
 //import gt from "./gt.png"; 
 
 import caav_black from "./caav_logo_black.png"; 
 import caav_white from "./caav_logo_white.png"; 
 
-const shirtColors = ["#f2f2f2", "#f56600", "#009900", "#3479b7","#522d80","#262525"]
+const shirtColors = ["#f2f2f2", "#e56125", "#0d9a48", "#3479b7","#522d80","#262525"]
 
 var assets = {
   shirt: {
@@ -32,12 +33,12 @@ var assets = {
   },
   front: {
     selected: caav_white,
-    textures: [caav_white,caav_black, duck],
+    textures: [caav_white,caav_black, pattern],
     materials: []
   },
   back: {
     selected: 'none',
-    textures: [caav_white,caav_black, duck],
+    textures: [caav_white,caav_black, pattern],
     materials: []
   }
 }
