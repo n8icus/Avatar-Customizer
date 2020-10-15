@@ -18,7 +18,7 @@ import pattern from "./pattern.png";
 import caav_black from "./caav_logo_black.png"; 
 import caav_white from "./caav_logo_white.png"; 
 
-const shirtColors = ["#f2f2f2", "#e56125", "#0d9a48", "#3479b7","#522d80","#262525"]
+const shirtColors = ["#f0ea3c","#e56125", "#0d9a48", "#3479b7","#7e5ba6"]
 
 var assets = {
   shirt: {
